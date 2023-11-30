@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Detector For IT industries </title>
+    <style>
+      body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/premium-photo/stress-management-problem-solution-egg-victory_279525-16673.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+      h1 {
+        color: #333;
+        font-size: 40px;
+        margin-top: 20px;
+      }
+      #bg {
+        width: 80%;
+        max-width: 400px;
+        display: block;
+        margin: 20px auto;
+        border: 5px solid #333;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        height: 600px;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Stress Detector for IT industries</h1>
+    <img id="bg" src="{{ url_for('predict') }}" alt="Stress Detector Image">
+    <h1> Team Tech Titans Union </h1>
+  </body>
+</html>
